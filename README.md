@@ -1,1 +1,1 @@
-I love little girls, they make me feel so good
+Oh Lord
