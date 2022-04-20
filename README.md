@@ -1,1 +1,1 @@
-When evening falls
+When evening falls, she'll run to me
