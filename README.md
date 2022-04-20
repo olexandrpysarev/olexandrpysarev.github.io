@@ -1,1 +1,1 @@
-When evening falls, she'll run to me, like whispered dream
+When evening falls, she'll run to me, like whispered dream your eyes can see
