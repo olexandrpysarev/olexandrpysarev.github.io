@@ -9,12 +9,20 @@ body {
         height: calc(297mm - 10px * 2);
         background-color: white;
         padding: 10px 50px;
-        position: absolute;
+        position: relative;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-  border: solid 20px rgba(0, 0, 0, 0.082);
+  border: solid 20px rgba(0, 0, 0, 0.137);
+      }
+      img {
+        max-height: 3cm;
+        max-width: 3cm;
+        position: absolute;
+        top: 80px;
+        right: 140px;
+             
       }
 
 .head-section {
@@ -33,11 +41,7 @@ body {
     letter-spacing: 0.2em;
   }
 
-  .horizontal-divider {
-      border: 1px solid rgba(0,0,0,0.1);
-      margin-left: 20px;
-      margin-right: 20px;
-  }
+
 
   .container {
   position: relative;
