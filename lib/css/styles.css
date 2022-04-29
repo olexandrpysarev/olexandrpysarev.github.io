@@ -5,7 +5,8 @@ body {
     main { 
       background-color: azure; 
       display: flex;
-      justify-content: center;
+    align-items: center;
+      flex-direction: column;
       }
     
       .square-container {
@@ -60,21 +61,14 @@ font-size: 120%;
 display: flex;
 align-items: center;
 justify-content: center;
+transition: 1s ease;
  }
 
  .subscribe-now:hover {
-animation-name: sub;
-animation-duration: 1s;
-animation-fill-mode: forwards;
+margin-top: 12px;
+     box-shadow: 0 30px 6px -20px black;
  }
 
- @keyframes sub {
-   from{
-    margin-top: 0%;
-   }
-   to {
-     margin-top: 12px;
-     box-shadow: 0 30px 6px -20px black;
-   }
- }
+
+
 
