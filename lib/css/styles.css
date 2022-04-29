@@ -1,9 +1,10 @@
 body {
-  margin: 20%;
 }
 
     main { 
       background-color: azure; 
+      display: flex;
+      justify-content: center;
       }
       
 
@@ -11,9 +12,25 @@ body {
         background-color: aquamarine;
 display: flex;
 justify-content: center;
+align-items: center;
+height: 12cm;
+width: 12cm;
+animation: 3s ease-in 1s infinite;
       }
 
       .square {
         display: flex;
         background-color: aqua;
+        border: 2px solid gray;
+        height: 5cm;
+        width: 5cm;
+        animation: rotate 1s linear infinite;
+        
+      }
+
+      @keyframes rotate {
+     100% {
+          transform: rotate(-360deg)
+         }
+        
       }
