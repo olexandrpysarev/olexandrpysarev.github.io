@@ -1,4 +1,5 @@
 body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
     main { 
@@ -6,8 +7,7 @@ body {
       display: flex;
       justify-content: center;
       }
-      
-
+    
       .square-container {
         background-color: aquamarine;
 display: flex;
@@ -15,7 +15,6 @@ justify-content: center;
 align-items: center;
 height: 12cm;
 width: 12cm;
-animation: 3s ease-in 1s infinite;
       }
 
       .square {
@@ -25,12 +24,57 @@ animation: 3s ease-in 1s infinite;
         height: 5cm;
         width: 5cm;
         animation: rotate 1s linear infinite;
-        
-      }
+           }
 
       @keyframes rotate {
      100% {
           transform: rotate(-360deg)
          }
-        
-      }
+          }
+
+          .learn-more {
+            background-color: black;
+            border-radius: 25px;
+            height: 2cm;
+            width: 5cm;
+color: white;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+          }
+
+ .learn-more:hover {
+   background-color: lawngreen;
+ }  
+ 
+ .subscribe-now {
+  background-color: darkorchid;
+  border-radius: 10px;
+  height: 2cm;
+  width: 10cm;
+color: white;
+font-weight: bold;
+letter-spacing: 8px;
+font-size: 120%;
+display: flex;
+align-items: center;
+justify-content: center;
+ }
+
+ .subscribe-now:hover {
+animation-name: sub;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+ }
+
+ @keyframes sub {
+   from{
+    margin-top: 0%;
+   }
+   to {
+     margin-top: 12px;
+     box-shadow: 0 30px 6px -20px black;
+   }
+ }
+
