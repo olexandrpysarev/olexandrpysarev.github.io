@@ -1,0 +1,155 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    main { 
+      background-color: azure; 
+      display: flex;
+    align-items: center;
+      flex-direction: column;
+      }
+    
+      .square-container {
+        background-color: aquamarine;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 12cm;
+width: 12cm;
+      }
+
+      .square {
+        display: flex;
+        background-color: aqua;
+        border: 2px solid gray;
+        height: 5cm;
+        width: 5cm;
+        animation: rotate 1s linear infinite;
+           }
+
+      @keyframes rotate {
+     100% {
+          transform: rotate(-360deg)
+         }
+          }
+
+          .learn-more {
+            background-color: black;
+            border-radius: 25px;
+            height: 2cm;
+            width: 5cm;
+color: white;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+          }
+
+ .learn-more:hover {
+   background-color: lawngreen;
+ }  
+ 
+ .subscribe-now {
+  background-color: darkorchid;
+  border-radius: 10px;
+  height: 2cm;
+  width: 10cm;
+color: white;
+font-weight: bold;
+letter-spacing: 8px;
+font-size: 120%;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: 1s ease;
+ }
+
+ .subscribe-now:hover {
+margin-top: 12px;
+     box-shadow: 0 30px 6px -20px black;
+ }
+
+ .alpha-button {
+  background-color: aqua;
+  border-radius: 25px;
+  height: 2cm;
+  width: 5cm;
+color: red;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+;
+}
+
+.alpha-button:hover {
+  background-color: red;
+  color: aqua;
+}
+
+.beta-button {
+  background-color: gray;
+  border-radius: 25px;
+  height: 2cm;
+  width: 5cm;
+color: black;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.beta-button:hover {
+  background-color: black;
+  color: gray;
+}
+
+.gamma-button {
+  background-color: violet;
+  border-radius: 25px;
+  height: 2cm;
+  width: 5cm;
+color: aquamarine;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.gamma-button:hover {
+  background-color: aquamarine;
+  color: violet;
+}
+
+.delta-button {
+  background-color: green;
+  border-radius: 25px;
+  height: 2cm;
+  width: 5cm;
+color: yellow;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.delta-button:hover {
+  background-color: yellow;
+  color: green;
+}
+
+a:link {
+text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
