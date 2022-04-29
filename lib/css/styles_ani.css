@@ -16,6 +16,7 @@ justify-content: center;
 align-items: center;
 height: 12cm;
 width: 12cm;
+margin: 3%;
       }
 
       .square {
@@ -43,6 +44,8 @@ font-weight: bold;
 display: flex;
 align-items: center;
 justify-content: center;
+margin: 3%;
+transition: 0.3s;
           }
 
  .learn-more:hover {
@@ -62,10 +65,11 @@ display: flex;
 align-items: center;
 justify-content: center;
 transition: 1s ease;
+margin: 3%;
  }
 
  .subscribe-now:hover {
-margin-top: 12px;
+margin-top: 20px;
      box-shadow: 0 30px 6px -20px black;
  }
 
@@ -79,7 +83,8 @@ font-weight: bold;
 display: flex;
 align-items: center;
 justify-content: center;
-;
+margin: 3%;
+transition: 0.3s;
 }
 
 .alpha-button:hover {
@@ -97,6 +102,8 @@ font-weight: bold;
 display: flex;
 align-items: center;
 justify-content: center;
+margin: 3%;
+transition: 0.3s;
 }
 
 .beta-button:hover {
@@ -114,6 +121,8 @@ font-weight: bold;
 display: flex;
 align-items: center;
 justify-content: center;
+margin: 3%;
+transition: 0.3s;
 }
 
 .gamma-button:hover {
@@ -131,6 +140,8 @@ font-weight: bold;
 display: flex;
 align-items: center;
 justify-content: center;
+margin: 3%;
+transition: 0.3s;
 }
 
 .delta-button:hover {
