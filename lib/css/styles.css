@@ -1,18 +1,19 @@
 body {
-    background-image: url(https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtYmc4LWFrZTI2NjctdGVkZHktam9iNTk4XzEuanBn.jpg?s=YILrzpPYknJHv_jpAMOZbCKaWpZGoPlfTpNBwtPAsuo);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 20%;
 }
 
-    main {
-        margin: 150px auto;
-        width: calc(210mm - 50px * 2);
-        height: calc(297mm - 10px * 2);
-        background-color: white;
-        padding: 10px 50px;
-        position: relative;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  border: solid 20px rgba(0, 0, 0, 0.137);
+    main { 
+      background-color: azure; 
+      }
+      
+
+      .square-container {
+        background-color: aquamarine;
+display: flex;
+justify-content: center;
+      }
+
+      .square {
+        display: flex;
+        background-color: aqua;
       }
