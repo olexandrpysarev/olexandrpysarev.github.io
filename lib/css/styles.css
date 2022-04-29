@@ -69,6 +69,70 @@ margin-top: 12px;
      box-shadow: 0 30px 6px -20px black;
  }
 
+ .alpha-button {
+  background-color: aqua;
+  border-radius: 25px;
+  height: 2cm;
+  width: 5cm;
+color: red;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
+.alpha-button:hover {
+  background-color: red;
+  color: aqua;
+}
 
+.beta-button {
+  background-color: gray;
+  border-radius: 25px;
+  height: 2cm;
+  width: 5cm;
+color: black;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
+.beta-button:hover {
+  background-color: black;
+  color: gray;
+}
+
+.gamma-button {
+  background-color: violet;
+  border-radius: 25px;
+  height: 2cm;
+  width: 5cm;
+color: aquamarine;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.gamma-button:hover {
+  background-color: aquamarine;
+  color: violet;
+}
+
+.delta-button {
+  background-color: green;
+  border-radius: 25px;
+  height: 2cm;
+  width: 5cm;
+color: yellow;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.delta-button:hover {
+  background-color: yellow;
+  color: green;
+}
