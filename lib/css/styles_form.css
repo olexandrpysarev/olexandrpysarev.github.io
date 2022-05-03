@@ -1,0 +1,46 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar {
+    border:solid;
+    width:500px;
+    height:25px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    text-align: center;
+}
+
+/*.progress-bar > :nth-child(2-10) {
+    margin-right: auto;
+    margin-left: 2px;
+}*/
+
+.sub-bar {
+    background-color: rgb(8, 153, 8);
+width: 10px;
+height: 20px;
+margin-left: 1px;
+margin-right: 1px;
+margin-top: 1px;
+padding-top: 3px;
+border-radius: 20%;
+z-index: 1;
+position: relative;
+justify-self: stretch;
+} 
+
+.progress-bar-text {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    margin-top: 0.2em;
+    margin-left: 16em;
+}
