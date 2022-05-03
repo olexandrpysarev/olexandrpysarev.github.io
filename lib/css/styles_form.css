@@ -1,11 +1,46 @@
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-color: black;
 }
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 180%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h2 {
+    font-size: 140%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+button {
+    font-size: 120%;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    box-shadow: 3px 3px 5px;
+    margin-top: 15%;
+}
+
+input[type=text] {
+    border: 1px solid black;
+    border-radius: 0.5em;
+    padding: 5%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    font-size: 120%;
 }
 
 .progress-bar {
@@ -16,12 +51,8 @@ main {
     flex-direction: row;
     margin-top: 15%;
     text-align: center;
+    box-shadow: 5px 5px 5px;
 }
-
-/*.progress-bar > :nth-child(2-10) {
-    margin-right: auto;
-    margin-left: 2px;
-}*/
 
 .sub-bar {
     background-color: rgb(8, 153, 8);
@@ -43,4 +74,17 @@ justify-self: stretch;
     display: flex;
     margin-top: 0.2em;
     margin-left: 16em;
+}
+
+.form-window {
+    border: 4px solid gray;
+    border-radius: 5%;
+    box-shadow: 7px 7px 5px;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
