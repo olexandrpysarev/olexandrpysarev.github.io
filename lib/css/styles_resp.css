@@ -104,12 +104,13 @@ body {
     max-height: 5mm;
     max-width: 5mm; 
     display: flex;
-    padding-top: 5%;
+    padding-top: 3%;
   }
 
   .content-section-left p {
 display: flex;
 padding-right: 10%;
+line-height: 2em;
   }
 
   .content-section-left h3 {
@@ -154,7 +155,7 @@ padding-bottom: 3%;
       display: flex;
       margin-top: 10%;
       margin-left: 4%;
-      flex-flow: column wrap;
+      flex-flow: column nowrap;
       max-height: 80%;
       margin-bottom: 7%;
     }
