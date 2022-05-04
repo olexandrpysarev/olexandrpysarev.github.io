@@ -4,8 +4,6 @@ body {
     display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
 }
 
 
@@ -13,8 +11,8 @@ body {
         background-color: white;
   border: solid 1em rgba(0, 0, 0, 0.137);
   font-size: 16px;
-  max-width: 190mm;
-  max-height: 297mm;
+  max-width: 220mm;
+  max-height: 320mm;
       }
           
   
@@ -70,8 +68,11 @@ body {
   .one-line-images {
     display: flex;
     flex-wrap: wrap;
-    padding-right: 10%;
+    padding-right: 1%;
+    flex-direction: column;
     justify-content: flex-end;
+    align-items: flex-end;
+    line-height: 2.5em;
 }
 
 .my-education {
@@ -79,7 +80,7 @@ body {
   flex-wrap: wrap;
   padding-right: 10%;
   justify-content: flex-end;
-  line-height: 1;
+  line-height: 1em;
   text-align: right;
 }
 
@@ -104,13 +105,14 @@ body {
     max-height: 5mm;
     max-width: 5mm; 
     display: flex;
+    padding-left: 0.6em;
+
     padding-top: 3%;
   }
 
   .content-section-left p {
 display: flex;
 padding-right: 10%;
-line-height: 2em;
   }
 
   .content-section-left h3 {
