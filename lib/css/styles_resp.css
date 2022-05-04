@@ -12,7 +12,7 @@ body {
   border: solid 1em rgba(0, 0, 0, 0.137);
   font-size: 16px;
   max-width: 220mm;
-  max-height: 320mm;
+  max-height: 400mm;
       }
           
   
@@ -91,16 +91,16 @@ body {
   display: flex;
   max-width: 50%;
   margin-left: 40%;
-  margin-top: 15%;
-  margin-bottom: 15%;
+  margin-top: 7%;
+  margin-bottom: 7%;
 }
 
 .short-hor-border-right {
   border: 1px solid gray;
   display: flex;
-  max-width: 35%;
-  margin-top: 15%;
-  margin-bottom: 15%;
+  max-width: 50%;
+  margin-top: 7%;
+  margin-bottom: 7%;
 }
 
   .content-section-left img {
@@ -144,23 +144,26 @@ padding-bottom: 3%;
   }
 
   .content-section-left ul {
-
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
   
   .content-section-left li {
     list-style-type: "• ";
     line-height: 100%;
     padding-bottom: 10%;
+    font-size: 100%;
   }
 
   .content-section-right {
     width: 60%;
       display: flex;
-      margin-top: 10%;
       margin-left: 4%;
       flex-flow: column nowrap;
       max-height: 80%;
       margin-bottom: 7%;
+      margin-top: 7%;
     }
 
   .content-section-right h1 {
