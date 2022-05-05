@@ -36,6 +36,7 @@ body {
 
   .head-section img {
       max-width: 30%;
+      min-width: 2cm;
   }
 
   .name-font {
@@ -97,7 +98,7 @@ body {
   border: 1px solid gray;
   display: flex;
   width: 10mm;
-  min-width: 15%;
+  min-width: 20%;
   margin-top: 7%;
   margin-bottom: 7%;
   padding-left: 25%;
